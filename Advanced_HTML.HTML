@@ -1,0 +1,134 @@
+<html>
+	<head>
+	<title>My second webpage</title>
+	<!-- TABLE BORDER -->
+
+	<style>
+	table,th,td{
+			border:1px solid black;
+			}
+	th{text-align:center;}
+	tr:nth-child(even){background-color:#D6EEEE;}
+	</style>
+
+	<!-- CLASS -->
+	.city{
+		background-color:red;
+		color:white;
+		margin:20px;
+		padding:12px;
+	}
+	</head>
+	<body>
+	<p>This is a table<p>
+	<table>
+	<!-- CAPTION ELEMENT -->
+	<caption>Details of family members</caption>
+	<!-- COLUMN SPANNING -->
+	<tr>
+		<th colspan="3">TABLE</th>
+	</tr>
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Address</th>
+	</tr>
+	<tr>
+		<td>Swapna</td>
+		<td>19</td>
+		<!-- ROWS SPANNING -->
+		<td rowspan="3">Bheemavaram</td>
+	</tr>
+	<tr>
+		<td>Triveni</td>
+		<td>21</td>
+	</tr>
+	<tr>
+		<td>Bhavani</td>
+		<td>13</td>
+	</tr>
+	</table>
+
+	<!-- UNORDERED LISTS -->
+	<h2>Unordered lists in HTML</h2>
+	<ul>
+		<li>Triveni</li>
+		<li>Swapna</li>
+		<li>Bhavani</li>
+	</ul>
+	<ul style="list-style-type:circle"> <!-- square,none,default is disk -->
+		<li>Triveni</li>
+		<li>Swapna</li>
+		<li>Bhavani</li>
+	</ul>
+	<!-- NESTED HTML LISTS -->
+	<h2>Nested lists</h2>
+	<ul>
+		<li>name</li>
+		<li>address</li>
+		<ul>
+			<li>village</li>
+			<li>house</li>
+		</ul>
+		<li>location</li>
+	</ul>
+
+	<!-- ORDERED LIST -->
+	<h2>Ordered lists in HTML</h2>
+	<ol>
+		<li>Triveni</li>
+		<li>Swapna</li>
+		<li>Bhavani</li>
+	</ol>
+
+	<!-- NESTED ORDERED LISTS -->
+	<h2>Nested Ordered Lists<h2>
+	<ol>
+	<li>coffee</li>
+	<li>tea
+		<ol>
+			<li>black tea</li>
+			<li>cold tea</li>
+		</ol>
+	</li>
+	<li>milk</li>
+	</ol>
+
+	<!-- HTML desription lists -->
+	<h2>HTML Description lists</h2>
+	<dl>
+		<dt>Coffee</dt>
+		<dd>-Black hot drink</dd>
+		<dt>milk</dt>
+		<dd>-white cold drink</dd>
+	</dl>
+	<!-- HTML Block -->
+	<div style="background-color:black;color:white;">
+	<h3>PARA WITH DIV TAG</h3>
+		<p> hi hello, I am swapna kandimalla from nuzvid. I am studying b.Tech 2nd in Rajiv Gandhi University of Knowledge Technologies which is also called as RGUKT. I am studying in CSE department. </p>
+	</div>
+
+	<!-- HTML CLASSES -->
+	<div class="city">
+	<p>Tokyo</p>
+	<p>fkl dlnwe oahp3 wwhpj aljgj</p>
+	</div>
+
+	<div class="city">
+	<p>ncvsl</p>
+	<p>sdvnewj egjjpo wren nc nwbtf snnn</p>
+	</div>
+
+
+	<!--AUDIO AND VIDEO-->
+	<audio controls>
+		<source src="https://www.w3schools.com/tags/horse.ogg">
+		your browser does not support the audio 
+	</audio>
+
+	<video height="320" width="240" controls>
+		<source src="https://www.w3schools.com/tags/movie.mp4">
+		your browser does not support video 
+	</video>
+	</body>
+</html>
